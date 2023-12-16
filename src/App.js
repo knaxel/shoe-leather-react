@@ -19,14 +19,14 @@ const App = () => {
         </Header>
 
         <Row grow padding={'40px'}> 
-          <Col growX center middle>
+          <Col growX center bottom>
             To the left
           </Col>
           <Col grow>
             <Row grow center middle >
               everything should be 
             </Row>
-            <Row grow center middle >
+            <Row grow center middle > 
               centereed
             </Row>
           </Col>

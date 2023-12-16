@@ -16,7 +16,7 @@ export const Col = (props) => {
         rubber = {...rubber, alignSelf: 'center'}
     }
     if(!!grow){    
-        rubber = {...rubber, flexGrow: 1,height:'auto'}    
+        rubber = {...rubber, flexGrow: 1,height:'auto'}
         return (<div style={rubber} {...remainingProps}>{children}</div>)
     }
     if(!!growY ){

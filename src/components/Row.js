@@ -25,6 +25,7 @@ export const Row = (props) => {
         display: 'flex',
         flexDirection: 'row',
         width: 'fit-content',
+        height: 'fit-content',
         ...style, 
     }
     
@@ -47,7 +48,7 @@ export const Row = (props) => {
         rubber = {...rubber, justifyContent: 'center'}
     }    
     if(!!middle){
-        rubber = {...rubber, alignItems: 'center'}
+        rubber = {...rubber, alignSelf: 'center'}
     }
     if(!!grow){
         rubber = {...rubber, flexGrow: 1, width:'unset'}
